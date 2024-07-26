@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic HTML Page</title>
+    <style>
+        body {
+            background-repeat: no-repeat;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 500px;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .dropdown {
+    
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    background-color: #f9f9f9;
+    min-width: 160px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: darkgreen;
+    color:black;
+}
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>WEBSITE REDIRECTOR</h1>
+    </header>
+
+    <p style="font-size: 34px;text-align: left;font-weight: bold;">STOP WASTING YOUR TIME SEARCHING FOR FOOD WEBSITES</p>
+        <p style="font-size: 28px;text-align: left;line-height:2;">This website helps you save a lot of time by redirecting you to your favourite food ordering websites in just one <b>CLICK</b>!!!</p>
+        <p style="font-size: 28px;text-align: left;line-height: 1;">Click on the button below to reach your favourite food ordering website</p>
+        <br>
+            <div class="dropdown">
+                <button class="dropbtn" >Click here</button>
+                <div class="dropdown-content">
+                    <a href="https://www.zomato.com/">Zomato</a>
+                    <a href="https://www.swiggy.com/">Swiggy</a>
+                    <a href="https://www.foodpanda.com/">Food Panda</a>
+                </div>
+            </div>
+
+    <footer>
+        <p>Thanks for visiting!!</p>
+    </footer>
+</body>
+</html>
